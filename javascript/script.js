@@ -39,7 +39,7 @@ ScrollReveal().reveal('.form__container', { delay:100, origin: 'bottom', distanc
 
 function cargar(){
     $.ajax({
-        url:'../javascript/texto.json',
+        url:'./javascript/texto.json',
         type: 'GET',
         success: function (data){
             let objeto_json = data;
