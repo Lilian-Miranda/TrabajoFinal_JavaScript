@@ -1,0 +1,52 @@
+{
+    "modelos":[
+       {
+            "joya":"Anillo",
+            "parametros":{
+                "material":"acero",
+                "ciudad":"Puerto Rico",
+                "año":"2022"
+            }
+       },
+       {
+            "joya":"colgante",
+            "parametros":{
+                "material":"plata",
+                "ciudad":"Madrid",
+                "año":"2023"
+            }
+       },
+
+       {
+            "joya":"pulsera",
+            "parametros":{
+                "material":"plata",
+                "ciudad":"Cadiz",
+                "año":"2024"
+            }
+        },
+
+        {
+            "joya":"pulsera",
+            "parametros":{
+                "material":"oro",
+                "ciudad":"Puerto Rico",
+                "año":"2024"
+            }
+        },
+
+        {
+            "joya":"anillo",
+            "parametros":{
+                "material":"plata",
+                "ciudad":"Santander",
+                "año":"2022"
+            }
+        }
+
+
+
+
+
+    ]
+}

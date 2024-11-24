@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Negocio de joyeria artesanal de micro y macro macramé">
+    <meta name="keywords" content="handmade, macrame, joyeria, sostenible, bohemian">
+    <meta name="author" content="Lilian Miranda">
+    <meta name="robots" content="follow">
+    <title>mArte</title>
+    <link rel="stylesheet" href="../css/03_estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo"><span>m</span>Arte</div>
+
+        <nav class="header__nav" id="main">
+            <ul class="header__nav-list" id="nav_list">
+                <li class="header__nav-item"><a href="../index.html">Índex</a></li>
+                <li class="header__nav-item"><a href="./01_galeria.html">Galería</a></li>
+                <li class="header__nav-item"><a href="./02_presupuesto.html">Presupuesto</a></li>
+                <li class="header__nav-item" id="contacto"><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <button class="header__button" id="button">=</button>
+
+    </header>
+
+    <!---------------- CONTACT SECTION ------------------->
+
+    <section class="ubication">
+        <div class="ubication__container">
+            <div id="map"></div>
+
+            <div class="ubication__data-container">
+                <div class="ubication__data">
+                    <h2 class="ubication__title">Donde nos encontramos</h2>
+                    <div class="ubication__data-description">
+                        <p>
+                            <strong>mArte<br></strong>
+                                    Lérida<br>
+                                    Pont de Suert<br>
+                                    Carrer de la Canaleta, 6<br>
+                        </p>
+    
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+       
+    </section>
+
+    <!---------------- FOOTER SECTION ------------------->
+
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div class="footer__container-direccion">
+                <h3 class="footer__title">mArte</h3>
+
+                <div class="footer__direccion">
+                    <img src="../assets/images/535188.png" alt="logo ubicacion">
+                    Carrer Jacint 6, 43700, El Vendrell
+                    <br>
+                    <br>
+
+                </div>
+
+                <div class="footer__direccion">
+                    <img src="../assets/images/646094.png" alt="logo direccion">
+                    mArtesana@gmail.com
+                    <br>
+                    <br>
+                </div>
+
+                <div class="footer__direccion">
+                    <img src="../assets/images/134744.png" alt="logo telefono">
+                    658745123
+                </div>
+            
+        
+            </div>
+
+            <div class="footer__container-legal">
+                <h3>Legal</h3>
+                <ul>
+                    <li>Aviso Legal</li>
+                   
+                    <li>Política de Cookies</li>
+            
+                    <li><a href="https://policies.google.com/privacy?hl=es" target="_blank">Política de privacidad</a></li>
+                </ul>
+            </div>
+            
+
+            <div class="footer__container-redes">
+        
+                <div class="footer__redes">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="../assets/images/59439.png"  alt="Facebook icon" title="Facebook icon" class="redes">
+                    </a>
+                </div>
+                <div class="footer__redes">
+                    <a href="https://twitter.com/?lang=es" target="_blank">
+                        <img src="../assets/images/5084650.png" alt="Twitter icon" title="Twitter icon" class="redes">
+                    </a>
+    
+                </div>
+                
+                <div class="footer__redes">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="../assets/images/739244.png" alt="Instagram icon" title="Instagram icon" class="instagram">
+                    </a>
+                </div>
+        
+            </div>
+    
+        </div>
+        
+
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="../javascript/03_script.js"></script>
+    
+
+
+
+
+
+</body>
